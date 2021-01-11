@@ -1,0 +1,65 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  background-color: #c1d9ec;
+}
+
+.container {
+  display: inline-grid;
+  gap: 1px 1px;
+  position: relative;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto;
+  top: 10vh;
+  left: 40vw;
+}
+
+.box {
+  background-color: white;
+  height: 29px;
+  width: 29px;
+  color: white;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.popup {
+  display: none;
+  position: relative;
+  grid-template: auto;
+  height: 100px;
+  width: 100px;
+  margin: 100px;
+  left: 40vw;
+}
+p {
+  width: auto;
+  height: 20px;
+  text-align: center;
+  color: white;
+  background-color: rgba(11, 34, 19, 0.8);
+  font-weight: 200;
+  font-family: sans-serif;
+  border-radius: 5%;
+}
+
+button {
+  background-color: #fefefe;
+  cursor: pointer;
+  border-radius: 5%;
+}
+
+button:hover {
+  background-color: rgb(221, 114, 114);
+  color: white;
+}
+
+.correct {
+  background-color: green;
+}
+
+.bomb {
+  background-color: red;
+  background-image: url("https://img.icons8.com/emoji/48/000000/bomb-emoji.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
